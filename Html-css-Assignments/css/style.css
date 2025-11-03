@@ -1,0 +1,109 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.book-btn {
+  background-color: #e84545;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+     font-size: 18px;
+     margin-bottom: 30px;
+     font-family: 'Lobster', sans-serif;
+
+}
+
+.hero-buttons .btn {
+  margin-right: 15px;
+}
+
+.red-btn {
+  background-color: #e84545;
+  color: #fff;
+}
+
+.dark-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.about {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.about h2 {
+  font-size: 20px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.about span {
+  color: #e84545;
+}
